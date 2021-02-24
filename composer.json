@@ -1,0 +1,35 @@
+{
+    "name": "seanhayes-com/laravel-hcaptcha",
+    "description": "Client library for hCAPTCHA, a free service that protects websites from spam and abuse.",
+    "type": "library",
+    "keywords": ["hcaptcha", "captcha", "spam", "abuse"],
+    "homepage": "https://github.com/seanhayes-com/laravel-hcaptcha",
+    "license": "BSD-3-Clause"
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11",
+        "friendsofphp/php-cs-fixer": "^2.2.20|^2.15",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HCaptcha\\": "src/HCaptcha"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.2.x-dev"
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/php-cs-fixer -vvv fix --using-cache=no --dry-run .",
+        "lint-fix": "vendor/bin/php-cs-fixer -vvv fix --using-cache=no .",
+        "test": "vendor/bin/phpunit --colors=always",
+        "serve-examples": "@php -S localhost:8080 -t examples"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
