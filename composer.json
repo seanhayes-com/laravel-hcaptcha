@@ -25,6 +25,8 @@
         "serve-examples": "@php -S localhost:8080 -t examples"
     },
     "config": {
-        "process-timeout": 0
-    }
+        "process-timeout": 0,
+		"sort-packages": true
+    },
+	"minimum-stability": "dev"
 }
