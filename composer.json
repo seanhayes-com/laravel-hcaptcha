@@ -18,11 +18,6 @@
             "HCaptcha\\": "src/HCaptcha"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.2.x-dev"
-        }
-    },
     "scripts": {
         "lint": "vendor/bin/php-cs-fixer -vvv fix --using-cache=no --dry-run .",
         "lint-fix": "vendor/bin/php-cs-fixer -vvv fix --using-cache=no .",
