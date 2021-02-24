@@ -103,8 +103,3 @@ if ($resp->isSuccess()) {
 
 You can find the constants for the libraries error codes in the `HCaptcha`
 class constants, e.g. `HCaptcha::E_HOSTNAME_MISMATCH`
-
-### Examples
-
-You can see examples of each hCAPTCHA type in [examples/](examples/). You can
-run the examples locally by using the Composer script:
