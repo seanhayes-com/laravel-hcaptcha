@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["hcaptcha", "captcha", "spam", "abuse"],
     "homepage": "https://github.com/seanhayes-com/laravel-hcaptcha",
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.5"
     },
